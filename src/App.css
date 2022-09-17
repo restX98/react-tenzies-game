@@ -1,0 +1,59 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  color: #2B283A;
+  padding: 20px;
+}
+
+.App main {
+  background: #F5F5F5;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  max-width: 400px;
+}
+
+.App main .title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 30px;
+  letter-spacing: -0.03em;
+}
+
+.App main .instruction {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1rem;
+  letter-spacing: -0.03em;
+  margin-bottom: 30px;
+}
+
+.App main .dice-container {
+  display: grid;
+  grid-template: auto auto / repeat(5, 1fr);
+  gap: 20px;
+}
+
+.App main > button{
+  height: 50px;
+  width: 100px;
+  border: none;
+  border-radius: 6px;
+  background-color: #5035FF;
+  color: white;
+  font-size: 1.2rem;
+  font-family: 'Karla', sans-serif;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.App main > button:active {
+  box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+}
